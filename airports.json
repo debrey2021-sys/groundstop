@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-13T23:43:30.351Z",
+ "fetchedAt": "2026-11-13T23:46:00.295Z",
  "airports": {
   "BOS": {
    "groundDelay": {
@@ -9,6 +9,15 @@
     "end": "2026-11-14T02:59:00Z"
    },
    "name": "General Edward Lawrence Logan International"
+  },
+  "EWR": {
+   "departureDelay": {
+    "reason": "EQ:FAA",
+    "min": "3 hours and 1 minute",
+    "max": "3 hours and 15 minutes",
+    "trend": "increasing"
+   },
+   "name": "Newark International"
   },
   "IAH": {
    "departureDelay": {
