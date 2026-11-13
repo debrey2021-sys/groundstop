@@ -1,0 +1,42 @@
+{
+  "state": "active",
+  "issuedAt": "2026-11-13T20:54:00Z",
+  "liftedAt": null,
+  "verifiedAt": "2026-11-13T23:35:00Z",
+  "summary": "All departures from U.S. airports are held. Flights already in the air are continuing to land. The FAA has not announced a lift time.",
+  "cause": "FAA and the White House describe a telecommunications outage affecting all en-route air traffic control centers. DHS says there is no indication of a cyberattack.",
+  "sourceName": "CNN live updates",
+  "sourceUrl": "https://www.cnn.com/2026/11/13/us/live-news/flights-ground-stop-faa",
+  "timeline": [
+    {
+      "t": "2026-11-13T22:55:00Z",
+      "text": "About 1,000 flights are airborne toward U.S. airports. A normal Friday evening has more than 4,500.",
+      "source": "Flightradar24",
+      "url": "https://www.flightradar24.com/blog/live/nationwide-ground-stop-issued-for-united-states/"
+    },
+    {
+      "t": "2026-11-13T22:14:00Z",
+      "text": "Homeland Security Secretary Markwayne Mullin says there is no indication of a cyberattack or terror threat, calling it \"just a telecommunications outage.\"",
+      "source": "Flightradar24",
+      "url": "https://www.flightradar24.com/blog/live/nationwide-ground-stop-issued-for-united-states/"
+    },
+    {
+      "t": "2026-11-13T22:00:00Z",
+      "text": "International departures begin leaving case by case. Etihad's Boston to Abu Dhabi flight gets airborne.",
+      "source": "Flightradar24",
+      "url": "https://www.flightradar24.com/blog/live/nationwide-ground-stop-issued-for-united-states/"
+    },
+    {
+      "t": "2026-11-13T21:16:00Z",
+      "text": "Transportation Secretary Sean Duffy says the stop follows \"a communication issue impacting all Air Route Traffic Control Centers.\" FAA technicians are investigating.",
+      "source": "Flightradar24",
+      "url": "https://www.flightradar24.com/blog/live/nationwide-ground-stop-issued-for-united-states/"
+    },
+    {
+      "t": "2026-11-13T20:54:00Z",
+      "text": "FAA Command Center orders every U.S. airport ground stopped \"due to extraordinary circumstances and for reasons of safety.\" 4,042 flights are airborne toward U.S. airports at that moment.",
+      "source": "Flightradar24",
+      "url": "https://www.flightradar24.com/blog/live/nationwide-ground-stop-issued-for-united-states/"
+    }
+  ]
+}

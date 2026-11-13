@@ -1,0 +1,47 @@
+name: Refresh FAA airport data
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["scripts/**", ".github/workflows/faa.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: faa-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: code
+      - uses: actions/checkout@v4
+        with:
+          ref: data
+          path: data
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Poll the FAA feed for about four minutes
+        run: |
+          cd data
+          git config user.name "faa-refresh"
+          git config user.email "faa-refresh@users.noreply.github.com"
+          for i in 1 2 3 4; do
+            node ../code/scripts/fetch-faa.mjs airports.json || echo "fetch failed"
+            if [ -n "$(git status --porcelain airports.json)" ]; then
+              git add airports.json
+              git commit -q -m "FAA airport data $(date -u +%H:%MZ)"
+              git pull -q --rebase origin data
+              git push -q origin HEAD:data
+            fi
+            if [ "$i" -lt 4 ]; then sleep 70; fi
+          done

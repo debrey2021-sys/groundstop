@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en" data-state="loading">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Is the ground stop over? Live FAA nationwide ground stop status</title>
+<meta name="description" content="One-word live answer on the FAA nationwide ground stop of November 13, 2026. Check your airport, see how long flights have been grounded, and know your refund and rebooking rights.">
+<meta name="theme-color" content="#0b0c0e">
+<link rel="canonical" href="https://debrey2021-sys.github.io/groundstop/">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Is the ground stop over?">
+<meta property="og:description" content="Live one-word answer, a clock on how long U.S. flights have been grounded, and an airport-by-airport check.">
+<meta property="og:url" content="https://debrey2021-sys.github.io/groundstop/">
+<meta property="og:image" content="https://debrey2021-sys.github.io/groundstop/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {"@type": "Question", "name": "What is a ground stop?",
+   "acceptedAnswer": {"@type": "Answer", "text": "A ground stop is an FAA order holding aircraft at their departure airport. Planes that have not taken off stay on the ground. Flights already in the air continue to their destination."}},
+  {"@type": "Question", "name": "Why did the FAA ground all U.S. flights on November 13, 2026?",
+   "acceptedAnswer": {"@type": "Answer", "text": "The FAA cited extraordinary circumstances and safety. The Transportation Secretary said a communication issue was affecting all Air Route Traffic Control Centers, and officials described it as a telecommunications outage with no indication of a cyberattack."}},
+  {"@type": "Question", "name": "Can I get a refund if my flight is cancelled by a ground stop?",
+   "acceptedAnswer": {"@type": "Answer", "text": "Yes. Under U.S. Department of Transportation rules, if your flight is cancelled or significantly changed and you choose not to travel, the airline owes you a refund to your original form of payment, whatever the cause."}},
+  {"@type": "Question", "name": "Will the airline pay for my hotel or meals?",
+   "acceptedAnswer": {"@type": "Answer", "text": "Usually not for this. Airline hotel and meal commitments apply to disruptions within the airline's control. An FAA air traffic control outage is not. Many airlines still waive change fees, so ask."}}
+ ]
+}
+</script>
+</head>
+<body>
+
+<header class="bar">
+  <span class="mark">groundstop<i>/</i>status</span>
+  <span class="live" id="live"><b class="dot"></b><span id="liveText">Loading</span></span>
+</header>
+
+<main>
+  <section class="hero" aria-labelledby="q">
+    <h1 id="q">Is the ground stop over?</h1>
+    <p class="answer" id="answer" aria-live="polite">&hellip;</p>
+    <p class="sub" id="sub">Checking the latest.</p>
+
+    <div class="clock">
+      <div class="clock-label" id="clockLabel">Grounded for</div>
+      <div class="clock-digits" id="clock" aria-hidden="true">--:--:--</div>
+      <div class="clock-meta" id="clockMeta"></div>
+    </div>
+
+    <p class="verified" id="verified"></p>
+
+    <div class="actions">
+      <button class="btn primary" id="share" type="button">Share this page</button>
+      <a class="btn" href="#airport">Check my airport</a>
+      <a class="btn" href="#rights">My rights</a>
+    </div>
+  </section>
+
+  <section class="block" id="airport" aria-labelledby="airportH">
+    <h2 id="airportH">Check your airport</h2>
+    <p class="lede">Airport-level restrictions come straight from the FAA's feed, re-read every few minutes.</p>
+    <form class="search" id="airportForm" autocomplete="off">
+      <label class="sr" for="airportInput">Airport code or city</label>
+      <input id="airportInput" name="a" type="text" inputmode="text" placeholder="ORD, Atlanta, LaGuardia&hellip;" list="airportList" spellcheck="false">
+      <datalist id="airportList"></datalist>
+      <button class="btn primary" type="submit">Check</button>
+    </form>
+    <div class="chips" id="chips"></div>
+    <div class="result" id="result" aria-live="polite" hidden></div>
+
+    <h3 class="subhead">Airports with FAA programs right now</h3>
+    <div id="programs" class="programs"><p class="muted">Loading the FAA feed.</p></div>
+    <p class="fine" id="feedMeta"></p>
+  </section>
+
+  <section class="block" id="rights" aria-labelledby="rightsH">
+    <h2 id="rightsH">What to do right now</h2>
+    <ol class="steps">
+      <li>
+        <h3>Don't leave for the airport on a guess</h3>
+        <p>Open your airline's app first. When the stop lifts, flights restart in waves and many will already be cancelled. Your airline's status beats any board in the terminal.</p>
+      </li>
+      <li>
+        <h3>Rebook in the app, not the line</h3>
+        <p>Most carriers issue a travel waiver during events like this, so changes are free. The app and the phone line reach the same seats as the gate agent, minus the queue.</p>
+      </li>
+      <li>
+        <h3>Cancelled or badly delayed? You can take the refund</h3>
+        <p>If your flight is cancelled, or delayed 3+ hours domestic or 6+ hours international, and you decide not to go, U.S. rules require a refund to your original payment. The cause doesn't matter. You don't have to accept a voucher. <a href="https://www.transportation.gov/airconsumer/refunds" rel="noopener">DOT refund rules</a></p>
+      </li>
+      <li>
+        <h3>Hotels and meals are a courtesy this time</h3>
+        <p>Airline hotel and meal promises cover problems the airline caused. An air traffic control outage isn't one. Ask anyway, and check the travel protection on the credit card you booked with. <a href="https://www.transportation.gov/airconsumer/airline-cancellation-delay-dashboard" rel="noopener">DOT airline commitments</a></p>
+      </li>
+      <li>
+        <h3>Stuck on the plane?</h3>
+        <p>Airlines must offer water and a snack by the two-hour mark of a tarmac delay and let you off by three hours on domestic flights, four on international, unless safety or security prevents it. <a href="https://www.transportation.gov/individuals/aviation-consumer-protection/tarmac-delays" rel="noopener">DOT tarmac delay rules</a></p>
+      </li>
+    </ol>
+  </section>
+
+  <section class="block" id="timeline" aria-labelledby="timelineH">
+    <h2 id="timelineH">What we know, in order</h2>
+    <p class="lede" id="cause"></p>
+    <ol class="timeline" id="timelineList"></ol>
+  </section>
+
+  <section class="block" id="faq" aria-labelledby="faqH">
+    <h2 id="faqH">Quick answers</h2>
+    <details open>
+      <summary>What is a ground stop?</summary>
+      <p>An FAA order that holds aircraft at their departure airport. Planes that haven't taken off stay put. Flights already in the air keep going and land.</p>
+    </details>
+    <details>
+      <summary>When will it end?</summary>
+      <p>The FAA has not given a time. The order says departures stay grounded "until further notice." This page flips the moment a lift is confirmed, and shows when the status was last checked.</p>
+    </details>
+    <details>
+      <summary>Has this happened before?</summary>
+      <p>Rarely. The last nationwide ground stop was in January 2023, when a failure in the system that distributes safety notices to pilots halted departures for about 90 minutes, delayed more than 10,000 flights and cancelled more than 1,000. Before that, September 11, 2001.</p>
+    </details>
+    <details>
+      <summary>Is it safe to fly once it lifts?</summary>
+      <p>The stop exists so that nothing takes off until controllers can talk to and track every aircraft. Flights resume only when the FAA says the system is working.</p>
+    </details>
+    <details>
+      <summary>My flight is tomorrow. Am I affected?</summary>
+      <p>Possibly. Aircraft and crews are out of position tonight, and it takes airlines a day or more to recover from a full stop. Watch your airline's app for schedule changes and waivers.</p>
+    </details>
+  </section>
+</main>
+
+<footer class="foot">
+  <p>Unofficial. Not affiliated with the FAA or any airline. The nationwide status is confirmed by hand against official statements and major news coverage, with the check time shown above. Airport programs are read automatically from the FAA's National Airspace System status feed. Always confirm with your airline before you travel.</p>
+  <p>Official sources: <a href="https://nasstatus.faa.gov/" rel="noopener">FAA NAS Status</a> · <a href="https://www.fly.faa.gov/adv/advADB.jsp" rel="noopener">FAA Command Center advisories</a> · <a href="https://www.transportation.gov/airconsumer" rel="noopener">DOT Aviation Consumer Protection</a></p>
+</footer>
+
+<script src="app.js" defer></script>
+</body>
+</html>
