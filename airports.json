@@ -1,0 +1,58 @@
+{
+ "fetchedAt": "2026-11-13T23:39:05.560Z",
+ "airports": {
+  "BOS": {
+   "groundDelay": {
+    "reason": "airport volume",
+    "avgMin": 26,
+    "maxMin": 103,
+    "end": "2026-11-14T02:59:00Z"
+   },
+   "name": "General Edward Lawrence Logan International"
+  },
+  "IAH": {
+   "departureDelay": {
+    "reason": "TM Initiatives:STOP:EQ",
+    "min": "2 hours and 46 minutes",
+    "max": "3 hours",
+    "trend": "increasing"
+   },
+   "name": "George Bush Intercontinental/Houston"
+  },
+  "LGA": {
+   "groundDelay": {
+    "reason": "wind",
+    "avgMin": 45,
+    "maxMin": 166,
+    "end": "2026-11-14T03:59:00Z"
+   },
+   "name": "La Guardia"
+  },
+  "SAN": {
+   "groundDelay": {
+    "reason": "airport volume",
+    "avgMin": 34,
+    "maxMin": 81,
+    "end": "2026-11-14T05:59:00Z"
+   },
+   "name": "San Diego-Lindbergh Field"
+  },
+  "SFO": {
+   "groundDelay": {
+    "reason": "wind",
+    "avgMin": 138,
+    "maxMin": 690,
+    "end": "2026-11-14T07:59:00Z"
+   },
+   "name": "San Francisco International"
+  },
+  "SUA": {
+   "closure": {
+    "text": "!MIA 11/158 SUA AD AP CLSD EXC AIRSHOW ACFT 2611131600-2611140100",
+    "start": "2026-11-13T16:00:00Z",
+    "end": "2026-11-14T01:00:00Z"
+   },
+   "name": "Witham Field"
+  }
+ }
+}
