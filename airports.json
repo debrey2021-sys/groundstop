@@ -1,6 +1,13 @@
 {
- "fetchedAt": "2026-11-14T20:57:17.769Z",
+ "fetchedAt": "2026-11-14T21:00:50.069Z",
  "airports": {
+  "LGA": {
+   "groundStop": {
+    "reason": "OTHER",
+    "end": "2026-11-14T22:30:00Z"
+   },
+   "name": "La Guardia"
+  },
   "SUA": {
    "closure": {
     "text": "!MIA 11/159 SUA AD AP CLSD EXC AIRSHOW ACFT 2611141600-2611142230",
