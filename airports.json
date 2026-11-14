@@ -1,21 +1,13 @@
 {
- "fetchedAt": "2026-11-14T10:51:55.192Z",
+ "fetchedAt": "2026-11-14T16:45:59.726Z",
  "airports": {
-  "PNS": {
+  "SUA": {
    "closure": {
-    "text": "!PNS 11/028 PNS AD AP CLSD EXC HEL OPS 2611140600-2611141100",
-    "start": "2026-11-14T06:00:00Z",
-    "end": "2026-11-14T11:00:00Z"
+    "text": "!MIA 11/159 SUA AD AP CLSD EXC AIRSHOW ACFT 2611141600-2611142230",
+    "start": "2026-11-14T16:00:00Z",
+    "end": "2026-11-14T22:30:00Z"
    },
-   "name": "Pensacola Regional"
-  },
-  "SNA": {
-   "closure": {
-    "text": "!SNA 11/021 SNA AD AP CLSD 2611140800-2611141415",
-    "start": "2026-11-14T08:00:00Z",
-    "end": "2026-11-14T14:15:00Z"
-   },
-   "name": "John Wayne Airport-Orange County"
+   "name": "Witham Field"
   }
  }
 }
