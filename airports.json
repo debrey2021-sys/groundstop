@@ -1,32 +1,21 @@
 {
- "fetchedAt": "2026-11-14T03:33:47.059Z",
+ "fetchedAt": "2026-11-14T10:51:55.192Z",
  "airports": {
-  "LGA": {
-   "groundDelay": {
-    "reason": "wind",
-    "avgMin": 45,
-    "maxMin": 166,
-    "end": "2026-11-14T03:59:00Z"
+  "PNS": {
+   "closure": {
+    "text": "!PNS 11/028 PNS AD AP CLSD EXC HEL OPS 2611140600-2611141100",
+    "start": "2026-11-14T06:00:00Z",
+    "end": "2026-11-14T11:00:00Z"
    },
-   "name": "La Guardia"
+   "name": "Pensacola Regional"
   },
-  "SAN": {
-   "groundDelay": {
-    "reason": "airport volume",
-    "avgMin": 34,
-    "maxMin": 81,
-    "end": "2026-11-14T05:59:00Z"
+  "SNA": {
+   "closure": {
+    "text": "!SNA 11/021 SNA AD AP CLSD 2611140800-2611141415",
+    "start": "2026-11-14T08:00:00Z",
+    "end": "2026-11-14T14:15:00Z"
    },
-   "name": "San Diego-Lindbergh Field"
-  },
-  "SFO": {
-   "groundDelay": {
-    "reason": "wind",
-    "avgMin": 138,
-    "maxMin": 690,
-    "end": "2026-11-14T07:59:00Z"
-   },
-   "name": "San Francisco International"
+   "name": "John Wayne Airport-Orange County"
   }
  }
 }
