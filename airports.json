@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-15T19:58:44.413Z",
+ "fetchedAt": "2026-11-15T20:02:16.033Z",
  "airports": {
   "AUS": {
    "groundDelay": {
@@ -83,9 +83,9 @@
   "TEB": {
    "departureDelay": {
     "reason": "VOL:Volume",
-    "min": "1 hour and 31 minutes",
-    "max": "1 hour and 45 minutes",
-    "trend": "increasing"
+    "min": "30 minutes",
+    "max": "44 minutes",
+    "trend": "decreasing"
    },
    "name": "Teterboro"
   }
