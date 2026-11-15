@@ -1,21 +1,13 @@
 {
- "fetchedAt": "2026-11-15T07:14:29.599Z",
+ "fetchedAt": "2026-11-15T14:46:29.216Z",
  "airports": {
-  "DAL": {
+  "SNA": {
    "closure": {
-    "text": "!DAL 11/044 DAL AD AP CLSD 2611150229-2611151200",
-    "start": "2026-11-15T02:29:00Z",
-    "end": "2026-11-15T12:00:00Z"
+    "text": "!SNA 11/020 SNA AD AP CLSD DLY 0730-1415 2611150730-2611211415",
+    "start": "2026-11-15T07:30:00Z",
+    "end": "2026-11-21T14:15:00Z"
    },
-   "name": "Dallas Love Field"
-  },
-  "PNS": {
-   "closure": {
-    "text": "!PNS 11/029 PNS AD AP CLSD EXC HEL OPS 2611150600-2611151100",
-    "start": "2026-11-15T06:00:00Z",
-    "end": "2026-11-15T11:00:00Z"
-   },
-   "name": "Pensacola Regional"
+   "name": "John Wayne Airport-Orange County"
   }
  }
 }
