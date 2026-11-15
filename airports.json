@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-15T20:02:16.033Z",
+ "fetchedAt": "2026-11-15T23:49:24.903Z",
  "airports": {
   "AUS": {
    "groundDelay": {
@@ -10,50 +10,14 @@
    },
    "name": "Austin-Bergstrom International"
   },
-  "DJT": {
+  "MCO": {
    "departureDelay": {
-    "reason": "OTHER:ZJX STOPS",
-    "min": "1 hour and 1 minute",
-    "max": "1 hour and 15 minutes",
+    "reason": "RWY:Disabled Aircraft",
+    "min": "16 minutes",
+    "max": "30 minutes",
     "trend": "increasing"
    },
-   "name": "President Donald J Trump International"
-  },
-  "FMY": {
-   "departureDelay": {
-    "reason": "OTHER:ZJX",
-    "min": "2 hours and 1 minute",
-    "max": "2 hours and 15 minutes",
-    "trend": "increasing"
-   },
-   "name": "Page Field"
-  },
-  "OPF": {
-   "departureDelay": {
-    "reason": "TM INITIATIVES:OTHER:ROCKET LAUNCH",
-    "min": "2 hours and 1 minute",
-    "max": "2 hours and 15 minutes",
-    "trend": "increasing"
-   },
-   "name": "Miami-Opa Locka Executive Airport"
-  },
-  "RSW": {
-   "departureDelay": {
-    "reason": "VOL:ZJX",
-    "min": "31 minutes",
-    "max": "45 minutes",
-    "trend": "increasing"
-   },
-   "name": "Southwest Florida International"
-  },
-  "SAN": {
-   "groundDelay": {
-    "reason": "airport volume",
-    "avgMin": 32,
-    "maxMin": 85,
-    "end": "2026-11-16T02:59:00Z"
-   },
-   "name": "San Diego-Lindbergh Field"
+   "name": "Orlando International"
   },
   "SFO": {
    "groundDelay": {
@@ -72,20 +36,12 @@
    },
    "name": "John Wayne Airport-Orange County"
   },
-  "SUA": {
-   "closure": {
-    "text": "!MIA 11/160 SUA AD AP CLSD EXC AIRSHOW ACFT 2611151600-2611152230",
-    "start": "2026-11-15T16:00:00Z",
-    "end": "2026-11-15T22:30:00Z"
-   },
-   "name": "Witham Field"
-  },
   "TEB": {
    "departureDelay": {
     "reason": "VOL:Volume",
-    "min": "30 minutes",
-    "max": "44 minutes",
-    "trend": "decreasing"
+    "min": "1 hour and 1 minute",
+    "max": "1 hour and 15 minutes",
+    "trend": "increasing"
    },
    "name": "Teterboro"
   }
