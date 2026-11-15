@@ -1,6 +1,69 @@
 {
- "fetchedAt": "2026-11-15T14:46:29.216Z",
+ "fetchedAt": "2026-11-15T19:58:44.413Z",
  "airports": {
+  "AUS": {
+   "groundDelay": {
+    "reason": "runway construction",
+    "avgMin": 65,
+    "maxMin": 183,
+    "end": "2026-11-16T04:59:00Z"
+   },
+   "name": "Austin-Bergstrom International"
+  },
+  "DJT": {
+   "departureDelay": {
+    "reason": "OTHER:ZJX STOPS",
+    "min": "1 hour and 1 minute",
+    "max": "1 hour and 15 minutes",
+    "trend": "increasing"
+   },
+   "name": "President Donald J Trump International"
+  },
+  "FMY": {
+   "departureDelay": {
+    "reason": "OTHER:ZJX",
+    "min": "2 hours and 1 minute",
+    "max": "2 hours and 15 minutes",
+    "trend": "increasing"
+   },
+   "name": "Page Field"
+  },
+  "OPF": {
+   "departureDelay": {
+    "reason": "TM INITIATIVES:OTHER:ROCKET LAUNCH",
+    "min": "2 hours and 1 minute",
+    "max": "2 hours and 15 minutes",
+    "trend": "increasing"
+   },
+   "name": "Miami-Opa Locka Executive Airport"
+  },
+  "RSW": {
+   "departureDelay": {
+    "reason": "VOL:ZJX",
+    "min": "31 minutes",
+    "max": "45 minutes",
+    "trend": "increasing"
+   },
+   "name": "Southwest Florida International"
+  },
+  "SAN": {
+   "groundDelay": {
+    "reason": "airport volume",
+    "avgMin": 32,
+    "maxMin": 85,
+    "end": "2026-11-16T02:59:00Z"
+   },
+   "name": "San Diego-Lindbergh Field"
+  },
+  "SFO": {
+   "groundDelay": {
+    "reason": "wind",
+    "avgMin": 179,
+    "maxMin": 341,
+    "end": "2026-11-16T07:59:00Z"
+   },
+   "name": "San Francisco International"
+  },
   "SNA": {
    "closure": {
     "text": "!SNA 11/020 SNA AD AP CLSD DLY 0730-1415 2611150730-2611211415",
@@ -8,6 +71,23 @@
     "end": "2026-11-21T14:15:00Z"
    },
    "name": "John Wayne Airport-Orange County"
+  },
+  "SUA": {
+   "closure": {
+    "text": "!MIA 11/160 SUA AD AP CLSD EXC AIRSHOW ACFT 2611151600-2611152230",
+    "start": "2026-11-15T16:00:00Z",
+    "end": "2026-11-15T22:30:00Z"
+   },
+   "name": "Witham Field"
+  },
+  "TEB": {
+   "departureDelay": {
+    "reason": "VOL:Volume",
+    "min": "1 hour and 31 minutes",
+    "max": "1 hour and 45 minutes",
+    "trend": "increasing"
+   },
+   "name": "Teterboro"
   }
  }
 }
