@@ -1,4 +1,21 @@
 {
- "fetchedAt": "2026-11-15T00:44:54.040Z",
- "airports": {}
+ "fetchedAt": "2026-11-15T07:14:29.599Z",
+ "airports": {
+  "DAL": {
+   "closure": {
+    "text": "!DAL 11/044 DAL AD AP CLSD 2611150229-2611151200",
+    "start": "2026-11-15T02:29:00Z",
+    "end": "2026-11-15T12:00:00Z"
+   },
+   "name": "Dallas Love Field"
+  },
+  "PNS": {
+   "closure": {
+    "text": "!PNS 11/029 PNS AD AP CLSD EXC HEL OPS 2611150600-2611151100",
+    "start": "2026-11-15T06:00:00Z",
+    "end": "2026-11-15T11:00:00Z"
+   },
+   "name": "Pensacola Regional"
+  }
+ }
 }
