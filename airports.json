@@ -1,30 +1,18 @@
 {
- "fetchedAt": "2026-11-15T23:49:24.903Z",
+ "fetchedAt": "2026-11-16T03:15:33.773Z",
  "airports": {
-  "AUS": {
+  "SFO": {
    "groundDelay": {
-    "reason": "runway construction",
-    "avgMin": 65,
-    "maxMin": 183,
-    "end": "2026-11-16T04:59:00Z"
+    "reason": "low ceilings",
+    "avgMin": 140,
+    "maxMin": 427,
+    "end": "2026-11-16T07:59:00Z"
    },
-   "name": "Austin-Bergstrom International"
-  },
-  "MCO": {
    "departureDelay": {
-    "reason": "RWY:Disabled Aircraft",
+    "reason": "WX:Wind",
     "min": "16 minutes",
     "max": "30 minutes",
     "trend": "increasing"
-   },
-   "name": "Orlando International"
-  },
-  "SFO": {
-   "groundDelay": {
-    "reason": "wind",
-    "avgMin": 179,
-    "maxMin": 341,
-    "end": "2026-11-16T07:59:00Z"
    },
    "name": "San Francisco International"
   },
@@ -35,15 +23,6 @@
     "end": "2026-11-21T14:15:00Z"
    },
    "name": "John Wayne Airport-Orange County"
-  },
-  "TEB": {
-   "departureDelay": {
-    "reason": "VOL:Volume",
-    "min": "1 hour and 1 minute",
-    "max": "1 hour and 15 minutes",
-    "trend": "increasing"
-   },
-   "name": "Teterboro"
   }
  }
 }
