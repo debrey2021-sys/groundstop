@@ -1,20 +1,13 @@
 {
- "fetchedAt": "2026-11-16T03:15:33.773Z",
+ "fetchedAt": "2026-11-16T11:29:32.269Z",
  "airports": {
-  "SFO": {
-   "groundDelay": {
-    "reason": "low ceilings",
-    "avgMin": 140,
-    "maxMin": 427,
-    "end": "2026-11-16T07:59:00Z"
+  "SAN": {
+   "closure": {
+    "text": "!SAN 11/048 SAN AD AP CLSD 2611160900-2611161400",
+    "start": "2026-11-16T09:00:00Z",
+    "end": "2026-11-16T14:00:00Z"
    },
-   "departureDelay": {
-    "reason": "WX:Wind",
-    "min": "16 minutes",
-    "max": "30 minutes",
-    "trend": "increasing"
-   },
-   "name": "San Francisco International"
+   "name": "San Diego-Lindbergh Field"
   },
   "SNA": {
    "closure": {
