@@ -1,30 +1,6 @@
 {
- "fetchedAt": "2026-11-17T03:49:45.147Z",
+ "fetchedAt": "2026-11-17T12:32:50.973Z",
  "airports": {
-  "SAN": {
-   "groundDelay": {
-    "reason": "airport volume",
-    "avgMin": 44,
-    "maxMin": 123,
-    "end": "2026-11-17T05:59:00Z"
-   },
-   "departureDelay": {
-    "reason": "VOL:Compacted Demand",
-    "min": "46 minutes",
-    "max": "1 hour",
-    "trend": "increasing"
-   },
-   "name": "San Diego-Lindbergh Field"
-  },
-  "SFO": {
-   "groundDelay": {
-    "reason": "low ceilings",
-    "avgMin": 98,
-    "maxMin": 324,
-    "end": "2026-11-17T06:59:00Z"
-   },
-   "name": "San Francisco International"
-  },
   "SNA": {
    "closure": {
     "text": "!SNA 11/020 SNA AD AP CLSD DLY 0730-1415 2611150730-2611211415",
