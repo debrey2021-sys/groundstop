@@ -1,29 +1,17 @@
 {
- "fetchedAt": "2026-11-16T21:11:16.257Z",
+ "fetchedAt": "2026-11-17T03:49:45.147Z",
  "airports": {
-  "DCA": {
-   "departureDelay": {
-    "reason": "TM Initiatives:ESP:VOL",
-    "min": "16 minutes",
-    "max": "30 minutes",
-    "trend": "increasing"
-   },
-   "name": "Ronald Reagan Washington National"
-  },
-  "LAS": {
-   "departureDelay": {
-    "reason": "WX:Wind",
-    "min": "16 minutes",
-    "max": "30 minutes",
-    "trend": "increasing"
-   },
-   "name": "Harry Reid International"
-  },
   "SAN": {
+   "groundDelay": {
+    "reason": "airport volume",
+    "avgMin": 44,
+    "maxMin": 123,
+    "end": "2026-11-17T05:59:00Z"
+   },
    "departureDelay": {
-    "reason": "VOL:Volume",
-    "min": "16 minutes",
-    "max": "30 minutes",
+    "reason": "VOL:Compacted Demand",
+    "min": "46 minutes",
+    "max": "1 hour",
     "trend": "increasing"
    },
    "name": "San Diego-Lindbergh Field"
@@ -31,9 +19,9 @@
   "SFO": {
    "groundDelay": {
     "reason": "low ceilings",
-    "avgMin": 65,
-    "maxMin": 148,
-    "end": "2026-11-17T03:59:00Z"
+    "avgMin": 98,
+    "maxMin": 324,
+    "end": "2026-11-17T06:59:00Z"
    },
    "name": "San Francisco International"
   },
@@ -44,13 +32,6 @@
     "end": "2026-11-21T14:15:00Z"
    },
    "name": "John Wayne Airport-Orange County"
-  },
-  "TEB": {
-   "groundStop": {
-    "reason": "airport volume",
-    "end": "2026-11-16T21:45:00Z"
-   },
-   "name": "Teterboro"
   }
  }
 }
