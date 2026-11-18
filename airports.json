@@ -1,6 +1,15 @@
 {
- "fetchedAt": "2026-11-17T21:16:52.003Z",
+ "fetchedAt": "2026-11-18T02:57:02.611Z",
  "airports": {
+  "MIA": {
+   "departureDelay": {
+    "reason": "TM Initiatives:MIT:WX",
+    "min": "16 minutes",
+    "max": "30 minutes",
+    "trend": "increasing"
+   },
+   "name": "Miami International"
+  },
   "SNA": {
    "closure": {
     "text": "!SNA 11/020 SNA AD AP CLSD DLY 0730-1415 2611150730-2611211415",
