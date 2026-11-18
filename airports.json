@@ -1,6 +1,47 @@
 {
- "fetchedAt": "2026-11-18T11:04:17.442Z",
+ "fetchedAt": "2026-11-18T19:22:25.372Z",
  "airports": {
+  "DJT": {
+   "groundStop": {
+    "reason": "airport volume",
+    "end": "2026-11-18T20:15:00Z"
+   },
+   "departureDelay": {
+    "reason": "WX:Thunderstorms",
+    "min": "16 minutes",
+    "max": "30 minutes",
+    "trend": "increasing"
+   },
+   "name": "President Donald J Trump International"
+  },
+  "MIA": {
+   "departureDelay": {
+    "reason": "WX:Thunderstorms",
+    "min": "1 hour and 46 minutes",
+    "max": "2 hours",
+    "trend": "increasing"
+   },
+   "name": "Miami International"
+  },
+  "SFO": {
+   "groundStop": {
+    "reason": "wind",
+    "end": "2026-11-18T20:00:00Z"
+   },
+   "groundDelay": {
+    "reason": "wind",
+    "avgMin": 92,
+    "maxMin": 341,
+    "end": "2026-11-19T06:59:00Z"
+   },
+   "departureDelay": {
+    "reason": "WX:Wind",
+    "min": "16 minutes",
+    "max": "30 minutes",
+    "trend": "increasing"
+   },
+   "name": "San Francisco International"
+  },
   "SNA": {
    "closure": {
     "text": "!SNA 11/020 SNA AD AP CLSD DLY 0730-1415 2611150730-2611211415",
