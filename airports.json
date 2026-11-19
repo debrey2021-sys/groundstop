@@ -1,13 +1,65 @@
 {
- "fetchedAt": "2026-11-19T08:53:41.963Z",
+ "fetchedAt": "2026-11-19T17:48:09.376Z",
  "airports": {
-  "PNS": {
-   "closure": {
-    "text": "!PNS 11/045 PNS AD AP CLSD EXC HEL OPS 2611190600-2611191100",
-    "start": "2026-11-19T06:00:00Z",
-    "end": "2026-11-19T11:00:00Z"
+  "AUS": {
+   "groundDelay": {
+    "reason": "low ceilings",
+    "avgMin": 54,
+    "maxMin": 272,
+    "end": "2026-11-20T00:59:00Z"
    },
-   "name": "Pensacola Regional"
+   "name": "Austin-Bergstrom International"
+  },
+  "FLL": {
+   "departureDelay": {
+    "reason": "TM Initiatives:MIT:WX",
+    "min": "31 minutes",
+    "max": "45 minutes",
+    "trend": "increasing"
+   },
+   "name": "Fort Lauderdale/Hollywood International"
+  },
+  "MCO": {
+   "departureDelay": {
+    "reason": "TM Initiatives:MIT:WX",
+    "min": "31 minutes",
+    "max": "45 minutes",
+    "trend": "increasing"
+   },
+   "name": "Orlando International"
+  },
+  "MIA": {
+   "departureDelay": {
+    "reason": "TM Initiatives:MIT:WX",
+    "min": "31 minutes",
+    "max": "45 minutes",
+    "trend": "increasing"
+   },
+   "name": "Miami International"
+  },
+  "SEA": {
+   "departureDelay": {
+    "reason": "RWY:Construction",
+    "min": "16 minutes",
+    "max": "30 minutes",
+    "trend": "increasing"
+   },
+   "name": "Seattle-Tacoma International"
+  },
+  "SFO": {
+   "groundDelay": {
+    "reason": "LOW",
+    "avgMin": 55,
+    "maxMin": 135,
+    "end": "2026-11-20T06:59:00Z"
+   },
+   "departureDelay": {
+    "reason": "VOL:Multi-taxi",
+    "min": "16 minutes",
+    "max": "30 minutes",
+    "trend": "increasing"
+   },
+   "name": "San Francisco International"
   },
   "SNA": {
    "closure": {
