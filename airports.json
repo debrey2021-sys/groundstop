@@ -1,44 +1,21 @@
 {
- "fetchedAt": "2026-11-18T19:22:25.372Z",
+ "fetchedAt": "2026-11-19T01:18:20.486Z",
  "airports": {
-  "DJT": {
-   "groundStop": {
-    "reason": "airport volume",
-    "end": "2026-11-18T20:15:00Z"
-   },
-   "departureDelay": {
-    "reason": "WX:Thunderstorms",
-    "min": "16 minutes",
-    "max": "30 minutes",
-    "trend": "increasing"
-   },
-   "name": "President Donald J Trump International"
-  },
   "MIA": {
    "departureDelay": {
-    "reason": "WX:Thunderstorms",
-    "min": "1 hour and 46 minutes",
-    "max": "2 hours",
+    "reason": "TM Initiatives:MIT:WX",
+    "min": "16 minutes",
+    "max": "30 minutes",
     "trend": "increasing"
    },
    "name": "Miami International"
   },
   "SFO": {
-   "groundStop": {
-    "reason": "wind",
-    "end": "2026-11-18T20:00:00Z"
-   },
    "groundDelay": {
     "reason": "wind",
-    "avgMin": 92,
-    "maxMin": 341,
-    "end": "2026-11-19T06:59:00Z"
-   },
-   "departureDelay": {
-    "reason": "WX:Wind",
-    "min": "16 minutes",
-    "max": "30 minutes",
-    "trend": "increasing"
+    "avgMin": 186,
+    "maxMin": 658,
+    "end": "2026-11-19T07:59:00Z"
    },
    "name": "San Francisco International"
   },
