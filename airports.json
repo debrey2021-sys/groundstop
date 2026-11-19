@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-19T23:54:32.006Z",
+ "fetchedAt": "2026-11-19T23:56:53.894Z",
  "airports": {
   "LAS": {
    "groundDelay": {
@@ -15,6 +15,13 @@
     "trend": "increasing"
    },
    "name": "Harry Reid International"
+  },
+  "SAN": {
+   "groundStop": {
+    "reason": "low visibility",
+    "end": "2026-11-20T01:00:00Z"
+   },
+   "name": "San Diego-Lindbergh Field"
   },
   "SFO": {
    "groundDelay": {
