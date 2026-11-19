@@ -1,23 +1,13 @@
 {
- "fetchedAt": "2026-11-19T01:18:20.486Z",
+ "fetchedAt": "2026-11-19T08:53:41.963Z",
  "airports": {
-  "MIA": {
-   "departureDelay": {
-    "reason": "TM Initiatives:MIT:WX",
-    "min": "16 minutes",
-    "max": "30 minutes",
-    "trend": "increasing"
+  "PNS": {
+   "closure": {
+    "text": "!PNS 11/045 PNS AD AP CLSD EXC HEL OPS 2611190600-2611191100",
+    "start": "2026-11-19T06:00:00Z",
+    "end": "2026-11-19T11:00:00Z"
    },
-   "name": "Miami International"
-  },
-  "SFO": {
-   "groundDelay": {
-    "reason": "wind",
-    "avgMin": 186,
-    "maxMin": 658,
-    "end": "2026-11-19T07:59:00Z"
-   },
-   "name": "San Francisco International"
+   "name": "Pensacola Regional"
   },
   "SNA": {
    "closure": {
