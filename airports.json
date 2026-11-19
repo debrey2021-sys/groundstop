@@ -1,63 +1,27 @@
 {
- "fetchedAt": "2026-11-19T17:48:09.376Z",
+ "fetchedAt": "2026-11-19T23:54:32.006Z",
  "airports": {
-  "AUS": {
+  "LAS": {
    "groundDelay": {
     "reason": "low ceilings",
-    "avgMin": 54,
-    "maxMin": 272,
-    "end": "2026-11-20T00:59:00Z"
+    "avgMin": 47,
+    "maxMin": 89,
+    "end": "2026-11-20T03:59:00Z"
    },
-   "name": "Austin-Bergstrom International"
-  },
-  "FLL": {
    "departureDelay": {
-    "reason": "TM Initiatives:MIT:WX",
-    "min": "31 minutes",
-    "max": "45 minutes",
-    "trend": "increasing"
-   },
-   "name": "Fort Lauderdale/Hollywood International"
-  },
-  "MCO": {
-   "departureDelay": {
-    "reason": "TM Initiatives:MIT:WX",
-    "min": "31 minutes",
-    "max": "45 minutes",
-    "trend": "increasing"
-   },
-   "name": "Orlando International"
-  },
-  "MIA": {
-   "departureDelay": {
-    "reason": "TM Initiatives:MIT:WX",
-    "min": "31 minutes",
-    "max": "45 minutes",
-    "trend": "increasing"
-   },
-   "name": "Miami International"
-  },
-  "SEA": {
-   "departureDelay": {
-    "reason": "RWY:Construction",
+    "reason": "WX:Low Ceilings",
     "min": "16 minutes",
     "max": "30 minutes",
     "trend": "increasing"
    },
-   "name": "Seattle-Tacoma International"
+   "name": "Harry Reid International"
   },
   "SFO": {
    "groundDelay": {
     "reason": "LOW",
-    "avgMin": 55,
-    "maxMin": 135,
-    "end": "2026-11-20T06:59:00Z"
-   },
-   "departureDelay": {
-    "reason": "VOL:Multi-taxi",
-    "min": "16 minutes",
-    "max": "30 minutes",
-    "trend": "increasing"
+    "avgMin": 80,
+    "maxMin": 331,
+    "end": "2026-11-20T07:59:00Z"
    },
    "name": "San Francisco International"
   },
