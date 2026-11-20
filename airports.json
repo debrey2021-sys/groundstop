@@ -1,33 +1,11 @@
 {
- "fetchedAt": "2026-11-19T23:56:53.894Z",
+ "fetchedAt": "2026-11-20T04:51:55.319Z",
  "airports": {
-  "LAS": {
-   "groundDelay": {
-    "reason": "low ceilings",
-    "avgMin": 47,
-    "maxMin": 89,
-    "end": "2026-11-20T03:59:00Z"
-   },
-   "departureDelay": {
-    "reason": "WX:Low Ceilings",
-    "min": "16 minutes",
-    "max": "30 minutes",
-    "trend": "increasing"
-   },
-   "name": "Harry Reid International"
-  },
-  "SAN": {
-   "groundStop": {
-    "reason": "low visibility",
-    "end": "2026-11-20T01:00:00Z"
-   },
-   "name": "San Diego-Lindbergh Field"
-  },
   "SFO": {
    "groundDelay": {
-    "reason": "LOW",
-    "avgMin": 80,
-    "maxMin": 331,
+    "reason": "low ceilings",
+    "avgMin": 139,
+    "maxMin": 286,
     "end": "2026-11-20T07:59:00Z"
    },
    "name": "San Francisco International"
