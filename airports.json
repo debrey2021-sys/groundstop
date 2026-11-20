@@ -1,14 +1,59 @@
 {
- "fetchedAt": "2026-11-20T13:39:35.828Z",
+ "fetchedAt": "2026-11-20T21:31:26.997Z",
  "airports": {
   "FLL": {
+   "departureDelay": {
+    "reason": "TM Initiatives:MIT:WX",
+    "min": "1 hour and 1 minute",
+    "max": "1 hour and 15 minutes",
+    "trend": "increasing"
+   },
+   "name": "Fort Lauderdale/Hollywood International"
+  },
+  "MIA": {
    "departureDelay": {
     "reason": "TM Initiatives:MIT:WX",
     "min": "16 minutes",
     "max": "30 minutes",
     "trend": "increasing"
    },
-   "name": "Fort Lauderdale/Hollywood International"
+   "name": "Miami International"
+  },
+  "OPF": {
+   "departureDelay": {
+    "reason": "VOL:Compacted Demand",
+    "min": "16 minutes",
+    "max": "30 minutes",
+    "trend": "increasing"
+   },
+   "name": "Miami-Opa Locka Executive Airport"
+  },
+  "SAN": {
+   "groundDelay": {
+    "reason": "airport volume",
+    "avgMin": 25,
+    "maxMin": 97,
+    "end": "2026-11-21T04:59:00Z"
+   },
+   "name": "San Diego-Lindbergh Field"
+  },
+  "SEA": {
+   "departureDelay": {
+    "reason": "WX:Low Visibility",
+    "min": "16 minutes",
+    "max": "30 minutes",
+    "trend": "increasing"
+   },
+   "name": "Seattle-Tacoma International"
+  },
+  "SFO": {
+   "departureDelay": {
+    "reason": "RWY:Rwy Change - Operational Necessity",
+    "min": "1 hour and 1 minute",
+    "max": "1 hour and 15 minutes",
+    "trend": "increasing"
+   },
+   "name": "San Francisco International"
   },
   "SNA": {
    "closure": {
@@ -17,6 +62,24 @@
     "end": "2026-11-21T14:15:00Z"
    },
    "name": "John Wayne Airport-Orange County"
+  },
+  "TEB": {
+   "departureDelay": {
+    "reason": "VOL:Volume",
+    "min": "31 minutes",
+    "max": "45 minutes",
+    "trend": "increasing"
+   },
+   "name": "Teterboro"
+  },
+  "TPA": {
+   "departureDelay": {
+    "reason": "WX:Thunderstorms",
+    "min": "1 hour and 1 minute",
+    "max": "1 hour and 15 minutes",
+    "trend": "increasing"
+   },
+   "name": "Tampa International"
   }
  }
 }
