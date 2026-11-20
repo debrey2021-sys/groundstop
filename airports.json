@@ -1,14 +1,14 @@
 {
- "fetchedAt": "2026-11-20T04:51:55.319Z",
+ "fetchedAt": "2026-11-20T13:39:35.828Z",
  "airports": {
-  "SFO": {
-   "groundDelay": {
-    "reason": "low ceilings",
-    "avgMin": 139,
-    "maxMin": 286,
-    "end": "2026-11-20T07:59:00Z"
+  "FLL": {
+   "departureDelay": {
+    "reason": "TM Initiatives:MIT:WX",
+    "min": "16 minutes",
+    "max": "30 minutes",
+    "trend": "increasing"
    },
-   "name": "San Francisco International"
+   "name": "Fort Lauderdale/Hollywood International"
   },
   "SNA": {
    "closure": {
