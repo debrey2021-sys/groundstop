@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T21:32:38.498Z",
+ "fetchedAt": "2026-11-20T21:34:59.946Z",
  "airports": {
   "FLL": {
    "departureDelay": {
@@ -36,15 +36,6 @@
     "end": "2026-11-21T04:59:00Z"
    },
    "name": "San Diego-Lindbergh Field"
-  },
-  "SEA": {
-   "departureDelay": {
-    "reason": "WX:Low Visibility",
-    "min": "16 minutes",
-    "max": "30 minutes",
-    "trend": "increasing"
-   },
-   "name": "Seattle-Tacoma International"
   },
   "SFO": {
    "departureDelay": {
