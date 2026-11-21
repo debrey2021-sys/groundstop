@@ -1,21 +1,76 @@
 {
- "fetchedAt": "2026-11-21T10:14:49.359Z",
+ "fetchedAt": "2026-11-21T17:35:22.044Z",
  "airports": {
-  "PNS": {
-   "closure": {
-    "text": "!PNS 11/069 PNS AD AP CLSD EXC HEL OPS 2611210600-2611211100",
-    "start": "2026-11-21T06:00:00Z",
-    "end": "2026-11-21T11:00:00Z"
+  "DEN": {
+   "arrivalDelay": {
+    "reason": "ZDV / WX:Wind",
+    "min": "16 minutes",
+    "max": "30 minutes",
+    "trend": "increasing"
    },
-   "name": "Pensacola Regional"
+   "name": "Denver International"
   },
-  "SNA": {
-   "closure": {
-    "text": "!SNA 11/020 SNA AD AP CLSD DLY 0730-1415 2611150730-2611211415",
-    "start": "2026-11-15T07:30:00Z",
-    "end": "2026-11-21T14:15:00Z"
+  "FLL": {
+   "departureDelay": {
+    "reason": "TM Initiatives:MIT:WX",
+    "min": "1 hour and 16 minutes",
+    "max": "1 hour and 30 minutes",
+    "trend": "increasing"
    },
-   "name": "John Wayne Airport-Orange County"
+   "name": "Fort Lauderdale/Hollywood International"
+  },
+  "HTS": {
+   "closure": {
+    "text": "!HTS 11/044 HTS AD AP CLSD EXC 20MIN \rPPR 122.950/304-453-6165 2611211200-2611212200",
+    "start": "2026-11-21T12:00:00Z",
+    "end": "2026-11-21T22:00:00Z"
+   },
+   "name": "Tri-State/Milton J Ferguson Field"
+  },
+  "LGA": {
+   "groundDelay": {
+    "reason": "runway construction",
+    "avgMin": 22,
+    "maxMin": 52,
+    "end": "2026-11-21T17:59:00Z"
+   },
+   "name": "La Guardia"
+  },
+  "MIA": {
+   "departureDelay": {
+    "reason": "TM Initiatives:MIT:WX",
+    "min": "46 minutes",
+    "max": "1 hour",
+    "trend": "increasing"
+   },
+   "name": "Miami International"
+  },
+  "SFO": {
+   "groundDelay": {
+    "reason": "low ceilings",
+    "avgMin": 36,
+    "maxMin": 129,
+    "end": "2026-11-21T20:59:00Z"
+   },
+   "name": "San Francisco International"
+  },
+  "TPA": {
+   "departureDelay": {
+    "reason": "WX:Thunderstorms",
+    "min": "46 minutes",
+    "max": "1 hour",
+    "trend": "increasing"
+   },
+   "name": "Tampa International"
+  },
+  "YVR": {
+   "groundDelay": {
+    "reason": "airport volume",
+    "avgMin": 20,
+    "maxMin": 38,
+    "end": "2026-11-21T19:44:00Z"
+   },
+   "name": "Vancouver International Airport"
   }
  }
 }
