@@ -1,23 +1,13 @@
 {
- "fetchedAt": "2026-11-21T02:44:17.005Z",
+ "fetchedAt": "2026-11-21T10:14:49.359Z",
  "airports": {
-  "ORD": {
-   "groundDelay": {
-    "reason": "other",
-    "avgMin": 51,
-    "maxMin": 100,
-    "end": "2026-11-21T05:59:00Z"
+  "PNS": {
+   "closure": {
+    "text": "!PNS 11/069 PNS AD AP CLSD EXC HEL OPS 2611210600-2611211100",
+    "start": "2026-11-21T06:00:00Z",
+    "end": "2026-11-21T11:00:00Z"
    },
-   "name": "Chicago OHare International"
-  },
-  "SEA": {
-   "groundDelay": {
-    "reason": "runway construction",
-    "avgMin": 57,
-    "maxMin": 88,
-    "end": "2026-11-21T05:59:00Z"
-   },
-   "name": "Seattle-Tacoma International"
+   "name": "Pensacola Regional"
   },
   "SNA": {
    "closure": {
