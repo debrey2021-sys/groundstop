@@ -1,50 +1,23 @@
 {
- "fetchedAt": "2026-11-20T21:34:59.946Z",
+ "fetchedAt": "2026-11-21T02:44:17.005Z",
  "airports": {
-  "FLL": {
-   "departureDelay": {
-    "reason": "TM Initiatives:MIT:WX",
-    "min": "1 hour and 1 minute",
-    "max": "1 hour and 15 minutes",
-    "trend": "increasing"
-   },
-   "name": "Fort Lauderdale/Hollywood International"
-  },
-  "MIA": {
-   "departureDelay": {
-    "reason": "TM Initiatives:MIT:WX",
-    "min": "16 minutes",
-    "max": "30 minutes",
-    "trend": "increasing"
-   },
-   "name": "Miami International"
-  },
-  "OPF": {
-   "departureDelay": {
-    "reason": "VOL:Compacted Demand",
-    "min": "16 minutes",
-    "max": "30 minutes",
-    "trend": "increasing"
-   },
-   "name": "Miami-Opa Locka Executive Airport"
-  },
-  "SAN": {
+  "ORD": {
    "groundDelay": {
-    "reason": "airport volume",
-    "avgMin": 25,
-    "maxMin": 97,
-    "end": "2026-11-21T04:59:00Z"
+    "reason": "other",
+    "avgMin": 51,
+    "maxMin": 100,
+    "end": "2026-11-21T05:59:00Z"
    },
-   "name": "San Diego-Lindbergh Field"
+   "name": "Chicago OHare International"
   },
-  "SFO": {
-   "departureDelay": {
-    "reason": "RWY:Rwy Change - Operational Necessity",
-    "min": "1 hour and 1 minute",
-    "max": "1 hour and 15 minutes",
-    "trend": "increasing"
+  "SEA": {
+   "groundDelay": {
+    "reason": "runway construction",
+    "avgMin": 57,
+    "maxMin": 88,
+    "end": "2026-11-21T05:59:00Z"
    },
-   "name": "San Francisco International"
+   "name": "Seattle-Tacoma International"
   },
   "SNA": {
    "closure": {
@@ -53,28 +26,6 @@
     "end": "2026-11-21T14:15:00Z"
    },
    "name": "John Wayne Airport-Orange County"
-  },
-  "TEB": {
-   "groundStop": {
-    "reason": "airport volume",
-    "end": "2026-11-20T22:45:00Z"
-   },
-   "departureDelay": {
-    "reason": "VOL:Volume",
-    "min": "31 minutes",
-    "max": "45 minutes",
-    "trend": "increasing"
-   },
-   "name": "Teterboro"
-  },
-  "TPA": {
-   "departureDelay": {
-    "reason": "WX:Thunderstorms",
-    "min": "1 hour and 1 minute",
-    "max": "1 hour and 15 minutes",
-    "trend": "increasing"
-   },
-   "name": "Tampa International"
   }
  }
 }
