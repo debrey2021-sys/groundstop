@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-21T22:20:14.249Z",
+ "fetchedAt": "2026-11-21T22:22:35.902Z",
  "airports": {
   "FLL": {
    "departureDelay": {
@@ -22,8 +22,8 @@
   "MCO": {
    "departureDelay": {
     "reason": "TM Initiatives:MIT:WX",
-    "min": "46 minutes",
-    "max": "1 hour",
+    "min": "31 minutes",
+    "max": "45 minutes",
     "trend": "increasing"
    },
    "name": "Orlando International"
