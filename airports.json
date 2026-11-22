@@ -1,41 +1,14 @@
 {
- "fetchedAt": "2026-11-21T22:22:35.902Z",
+ "fetchedAt": "2026-11-22T02:21:35.291Z",
  "airports": {
-  "FLL": {
+  "MIA": {
    "departureDelay": {
     "reason": "TM Initiatives:MIT:WX",
-    "min": "45 minutes",
-    "max": "59 minutes",
+    "min": "15 minutes",
+    "max": "29 minutes",
     "trend": "decreasing"
    },
-   "name": "Fort Lauderdale/Hollywood International"
-  },
-  "FMY": {
-   "departureDelay": {
-    "reason": "WX:Thunderstorms",
-    "min": "1 hour and 1 minute",
-    "max": "1 hour and 15 minutes",
-    "trend": "increasing"
-   },
-   "name": "Page Field"
-  },
-  "MCO": {
-   "departureDelay": {
-    "reason": "TM Initiatives:MIT:WX",
-    "min": "31 minutes",
-    "max": "45 minutes",
-    "trend": "increasing"
-   },
-   "name": "Orlando International"
-  },
-  "RSW": {
-   "departureDelay": {
-    "reason": "VOL:Volume",
-    "min": "30 minutes",
-    "max": "44 minutes",
-    "trend": "decreasing"
-   },
-   "name": "Southwest Florida International"
+   "name": "Miami International"
   }
  }
 }
