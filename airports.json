@@ -1,14 +1,13 @@
 {
- "fetchedAt": "2026-11-22T02:21:35.291Z",
+ "fetchedAt": "2026-11-22T09:56:49.348Z",
  "airports": {
-  "MIA": {
-   "departureDelay": {
-    "reason": "TM Initiatives:MIT:WX",
-    "min": "15 minutes",
-    "max": "29 minutes",
-    "trend": "decreasing"
+  "PNS": {
+   "closure": {
+    "text": "!PNS 11/070 PNS AD AP CLSD EXC HEL OPS 2611220600-2611221100",
+    "start": "2026-11-22T06:00:00Z",
+    "end": "2026-11-22T11:00:00Z"
    },
-   "name": "Miami International"
+   "name": "Pensacola Regional"
   }
  }
 }
