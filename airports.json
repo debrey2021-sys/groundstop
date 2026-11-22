@@ -1,11 +1,11 @@
 {
- "fetchedAt": "2026-11-22T17:35:35.264Z",
+ "fetchedAt": "2026-11-22T22:45:07.096Z",
  "airports": {
   "DJT": {
    "departureDelay": {
-    "reason": "VOL:Compacted Demand",
-    "min": "16 minutes",
-    "max": "30 minutes",
+    "reason": "VOL: ZJX",
+    "min": "31 minutes",
+    "max": "45 minutes",
     "trend": "increasing"
    },
    "name": "President Donald J Trump International"
@@ -13,91 +13,34 @@
   "EWR": {
    "groundDelay": {
     "reason": "low ceilings",
-    "avgMin": 115,
-    "maxMin": 179,
+    "avgMin": 105,
+    "maxMin": 355,
     "end": "2026-11-23T04:59:00Z"
-   },
-   "departureDelay": {
-    "reason": "OTHER: AIRSPACE SHARING WITH N90",
-    "min": "16 minutes",
-    "max": "30 minutes",
-    "trend": "increasing"
    },
    "name": "Newark International"
   },
   "LGA": {
    "groundDelay": {
     "reason": "low visibility",
-    "avgMin": 148,
-    "maxMin": 362,
-    "end": "2026-11-23T04:59:00Z"
+    "avgMin": 199,
+    "maxMin": 419,
+    "end": "2026-11-23T07:59:00Z"
    },
    "name": "La Guardia"
   },
-  "MIA": {
+  "SRQ": {
    "departureDelay": {
-    "reason": "TM Initiatives:MIT:VOL",
-    "min": "1 hour and 1 minute",
-    "max": "1 hour and 15 minutes",
-    "trend": "increasing"
-   },
-   "name": "Miami International"
-  },
-  "ORD": {
-   "departureDelay": {
-    "reason": "WX:Low Ceilings",
+    "reason": "TM Initiatives:DSP:VOL",
     "min": "16 minutes",
     "max": "30 minutes",
     "trend": "increasing"
    },
-   "name": "Chicago OHare International"
-  },
-  "PHX": {
-   "departureDelay": {
-    "reason": "TM Initiatives:MIT:VOL",
-    "min": "16 minutes",
-    "max": "30 minutes",
-    "trend": "increasing"
-   },
-   "name": "Phoenix Sky Harbor International"
-  },
-  "RSW": {
-   "departureDelay": {
-    "reason": "VOL:Compacted Demand",
-    "min": "16 minutes",
-    "max": "30 minutes",
-    "trend": "increasing"
-   },
-   "name": "Southwest Florida International"
-  },
-  "SAN": {
-   "groundDelay": {
-    "reason": "airport volume",
-    "avgMin": 33,
-    "maxMin": 75,
-    "end": "2026-11-22T22:59:00Z"
-   },
-   "departureDelay": {
-    "reason": "VOL:Compacted Demand",
-    "min": "16 minutes",
-    "max": "30 minutes",
-    "trend": "increasing"
-   },
-   "name": "San Diego-Lindbergh Field"
-  },
-  "SFO": {
-   "groundStop": {
-    "reason": "low ceilings",
-    "end": "2026-11-22T18:00:00Z"
-   },
-   "name": "San Francisco International"
+   "name": "Sarasota-Bradenton International"
   },
   "TEB": {
-   "departureDelay": {
-    "reason": "TM Initiatives:Metering:RWY",
-    "min": "46 minutes",
-    "max": "1 hour",
-    "trend": "increasing"
+   "groundStop": {
+    "reason": "low ceilings",
+    "end": "2026-11-22T23:30:00Z"
    },
    "name": "Teterboro"
   }
