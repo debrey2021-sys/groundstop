@@ -1,14 +1,21 @@
 {
- "fetchedAt": "2026-11-24T00:09:05.233Z",
+ "fetchedAt": "2026-11-24T09:47:06.704Z",
  "airports": {
   "LGA": {
-   "departureDelay": {
-    "reason": "WX:Wind",
-    "min": "16 minutes",
-    "max": "30 minutes",
-    "trend": "increasing"
+   "closure": {
+    "text": "!LGA 11/413 LGA AD AP CLSD EXC HEL 30MIN \rPPR 718-533-3700 2611240514-2611241100",
+    "start": "2026-11-24T05:14:00Z",
+    "end": "2026-11-24T11:00:00Z"
    },
    "name": "La Guardia"
+  },
+  "PNS": {
+   "closure": {
+    "text": "!PNS 11/072 PNS AD AP CLSD EXC HEL OPS 2611240600-2611241100",
+    "start": "2026-11-24T06:00:00Z",
+    "end": "2026-11-24T11:00:00Z"
+   },
+   "name": "Pensacola Regional"
   }
  }
 }
