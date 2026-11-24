@@ -1,4 +1,14 @@
 {
- "fetchedAt": "2026-11-23T12:24:56.153Z",
- "airports": {}
+ "fetchedAt": "2026-11-24T00:09:05.233Z",
+ "airports": {
+  "LGA": {
+   "departureDelay": {
+    "reason": "WX:Wind",
+    "min": "16 minutes",
+    "max": "30 minutes",
+    "trend": "increasing"
+   },
+   "name": "La Guardia"
+  }
+ }
 }
