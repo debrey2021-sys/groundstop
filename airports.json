@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-25T22:39:31.791Z",
+ "fetchedAt": "2026-11-25T22:41:53.503Z",
  "airports": {
   "FLL": {
    "departureDelay": {
@@ -13,9 +13,9 @@
   "MIA": {
    "departureDelay": {
     "reason": "TM Initiatives:MIT:WX",
-    "min": "15 minutes",
-    "max": "29 minutes",
-    "trend": "decreasing"
+    "min": "31 minutes",
+    "max": "45 minutes",
+    "trend": "increasing"
    },
    "name": "Miami International"
   },
