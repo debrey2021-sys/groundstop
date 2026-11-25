@@ -1,14 +1,23 @@
 {
- "fetchedAt": "2026-11-24T20:23:28.715Z",
+ "fetchedAt": "2026-11-25T03:36:41.369Z",
  "airports": {
-  "TEB": {
-   "departureDelay": {
-    "reason": "WX:Wind",
-    "min": "16 minutes",
-    "max": "30 minutes",
-    "trend": "increasing"
+  "LAS": {
+   "groundDelay": {
+    "reason": "other",
+    "avgMin": 31,
+    "maxMin": 87,
+    "end": "2026-11-25T07:59:00Z"
    },
-   "name": "Teterboro"
+   "name": "Harry Reid International"
+  },
+  "SFO": {
+   "groundDelay": {
+    "reason": "wind",
+    "avgMin": 124,
+    "maxMin": 202,
+    "end": "2026-11-25T08:59:00Z"
+   },
+   "name": "San Francisco International"
   }
  }
 }
