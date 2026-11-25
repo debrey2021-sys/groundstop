@@ -1,23 +1,23 @@
 {
- "fetchedAt": "2026-11-25T03:36:41.369Z",
+ "fetchedAt": "2026-11-25T13:27:15.519Z",
  "airports": {
-  "LAS": {
-   "groundDelay": {
-    "reason": "other",
-    "avgMin": 31,
-    "maxMin": 87,
-    "end": "2026-11-25T07:59:00Z"
+  "FLL": {
+   "departureDelay": {
+    "reason": "TM Initiatives:MIT:WX",
+    "min": "16 minutes",
+    "max": "30 minutes",
+    "trend": "increasing"
    },
-   "name": "Harry Reid International"
+   "name": "Fort Lauderdale/Hollywood International"
   },
-  "SFO": {
-   "groundDelay": {
-    "reason": "wind",
-    "avgMin": 124,
-    "maxMin": 202,
-    "end": "2026-11-25T08:59:00Z"
+  "MIA": {
+   "departureDelay": {
+    "reason": "TM Initiatives:MIT:WX",
+    "min": "31 minutes",
+    "max": "45 minutes",
+    "trend": "increasing"
    },
-   "name": "San Francisco International"
+   "name": "Miami International"
   }
  }
 }
