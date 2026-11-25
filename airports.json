@@ -1,23 +1,32 @@
 {
- "fetchedAt": "2026-11-25T13:27:15.519Z",
+ "fetchedAt": "2026-11-25T22:39:31.791Z",
  "airports": {
   "FLL": {
    "departureDelay": {
     "reason": "TM Initiatives:MIT:WX",
-    "min": "16 minutes",
-    "max": "30 minutes",
-    "trend": "increasing"
+    "min": "15 minutes",
+    "max": "29 minutes",
+    "trend": "decreasing"
    },
    "name": "Fort Lauderdale/Hollywood International"
   },
   "MIA": {
    "departureDelay": {
     "reason": "TM Initiatives:MIT:WX",
-    "min": "31 minutes",
-    "max": "45 minutes",
-    "trend": "increasing"
+    "min": "15 minutes",
+    "max": "29 minutes",
+    "trend": "decreasing"
    },
    "name": "Miami International"
+  },
+  "SAN": {
+   "groundDelay": {
+    "reason": "airport volume",
+    "avgMin": 27,
+    "maxMin": 70,
+    "end": "2026-11-25T23:59:00Z"
+   },
+   "name": "San Diego-Lindbergh Field"
   }
  }
 }
