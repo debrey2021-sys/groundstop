@@ -1,14 +1,4 @@
 {
- "fetchedAt": "2026-11-26T04:22:31.471Z",
- "airports": {
-  "MIA": {
-   "groundDelay": {
-    "reason": "disabled aircraft on the runway",
-    "avgMin": 214,
-    "maxMin": 352,
-    "end": "2026-11-26T07:59:00Z"
-   },
-   "name": "Miami International"
-  }
- }
+ "fetchedAt": "2026-11-26T14:03:59.233Z",
+ "airports": {}
 }
